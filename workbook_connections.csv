@@ -1,0 +1,2 @@
+﻿SiteName,ProjectName,WorkbookName,ConnectionName,DS_ServerName,DS_ServerPort,DS_UserName,DS_Password,DS_EmbedPassword(True/False)
+Default(Can give empty string),MyProject,DS_Publish_Demo,MyDataSourceEmbeddingTesting,GGKU2SER2,1433,sa,XXXXXXXXX,True

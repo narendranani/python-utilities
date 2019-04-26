@@ -1,0 +1,88 @@
+﻿Pillar,Product,Project,Pkey
+Advertising,Activation,Activation,ACT
+Advertising,vCE,vCE Initiatives,VCEINIT
+Advertising,vCE,vCE Data,VCEDATA
+Advertising,vCE,vCE UI,VCEUI
+Advertising,Shared Service,AdEffx Instrumentation,AIP
+Advertising,Shared Service,Tag Development,TAG
+Advertising,Activation,Contextual Development,PX
+Advertising,Activation,Development Tasks,DT
+Advertising,Activation,Ops Tasks,OT
+Advertising,Activation,Proximic Support,CDI
+Advertising,Activation,Release Engineering,RELENG
+Advertising,Shared Service,AST Support [EVV],ARSD
+Custom,Custom,CMS,CMS
+Custom,Custom,"CMS Advertiser Group – Advertiser, Operator, Agency",CA
+Custom,Custom,CMS Analytics Telecom,CMSAT
+Custom,Custom,CMS Systems Development,CMSD
+Custom,Custom,Custom Behavioral,CB
+Custom,Custom,Custom Solutions,CSTM
+Custom,Lift,Lift,LIFT
+Custom,Survey,SLAM,SLAM
+Custom,Survey,Survey Operations - EVV,EOWO
+Custom,Survey,Survey Report Support,SRPT
+Custom,Survey,Survey Tech Engineering,STE
+Custom,Survey,Zeus,ZEUS
+Digital,MyMetrix Products,Digital Initiatives,DIGINIT
+Digital,MyMetrix Products,Digital Data,DIGDATA
+Digital,MyMetrix Products,Digital UI,DIGUI
+Digital,Shared Service,Meters,MTR
+Digital,Shared Service,Panel Development,PANDEV
+Digital,Shared Service,Panel Technology,PT
+Digital,Shared Service,Registration,REG
+Digital,Shared Service,OSS Deployments,OD
+Digital,Shared Service,Mobile,MOBI
+Intl.,CMAM,CMAM International,CMAM
+Intl.,ORCA,ORCA,ORCA
+Intl.,ORCA,ORCAOPS,OR
+Movies,Movies,Movies,MOV
+TV / XP,"Cross Platform (ETV, Xmedia)",Cross Platform,XP
+TV / XP,Branded Entertainment,Branded Entertainment,BE
+TV / XP,Linear TV,Linear,LIN
+TV / XP,Media Planning Essentials,Media Planning Essentials,RFO
+TV / XP,OnDemand Essentials,OnDemand Essentials,ODE
+TV / XP,Operator,Operator,OPR
+TV / XP,Shared Service,ANS Projects,ANSPROJECT
+TV / XP,Shared Service,ODE Content Management,ODECONMGMT
+Multi,Shared Service,Data Operations,DATAOPS
+Multi,Shared Service,Data Operations Dev,DATAOPSDEV
+Multi,Shared Service,Normalization Operations,NMOPS
+Multi,Shared Service,Operations QC,QCOPS
+Multi,Shared Service,Schedule Operations,SCHEDULOPS
+Multi,Shared Service,Product Support,PDSP
+Multi,Shared Service,1cS,OCS
+Multi,Shared Service,comScore Labs,CSL
+Multi,Shared Service,Corporate Systems Engineering,CSE
+Multi,Shared Service,CP-Collection,CPCOL
+Multi,Shared Service,Data Governance,DTGV
+Multi,Shared Service,Datamart Development,DMD
+Multi,Shared Service,DCI,DCI
+Multi,Shared Service,DevOps,DEVOPS
+Multi,Shared Service,IT Security,ITSEC
+Multi,Shared Service,JIRA Support,JIRASUP
+Multi,Shared Service,Platform Services,PLTSRV
+Multi,Shared Service,Production & Delivery Operations,PROD
+Multi,Shared Service,RES Coverage,RESCVRG
+Multi,Shared Service,RES Factors,RESFACTORS
+Multi,Shared Service,RES Investigations,RESINVSTGT
+Multi,Shared Service,RES Management,RESMNGMNT
+Multi,Shared Service,RES Projects,RESPROJECT
+Multi,Shared Service,Software Config Mgmt,SCM
+Multi,Shared Service,StatSquad,STAT
+Multi,Shared Service,Strategic & Corporate Initiatives,CORP
+Multi,Shared Service,Test Automation,AUTOQA
+Multi,Shared Service,User Experience,UXD
+Non-Product,Non-Product,Miscellaneous Time,MISC
+Non-Product,Non-Product,HR Support,HRSP
+Non-Product,Non-Product,Workday Support,WDSP
+Non-Product,Non-Product,Marketing Projects,MARKETING
+Non-Product,Non-Product,UI Marketing,MKTG
+Non-Product,Non-Product,Test,TEST
+DAx,DAx,CSI-DAx,CSID
+DAx,DAx,DAx Ops,DAXOPS
+DAx,DAx,DAx Ops TAA,DAXTAA
+DAx,DAx,Dax Projects,DAP
+DAx,DAx,DAX QA,DXQA
+DAx,DAx,DAx Tech Services,DTS
+DAx,DAx,Digital Analytix,SSTAT
+DAx,DAx,Digital Analytix - Reporting,CMR

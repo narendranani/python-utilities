@@ -1,0 +1,4 @@
+INSERT INTO singer_log.fb_initializer_subjob_control(job_id,target_table_id,subjob_start_time,subjob_status,subjob_stage,created_date_time,created_by)
+SELECT <job_id>, source_table_id, '<redshift_date>', 'inprogress', 'not started', '<redshift_date>', \"current_user\"()
+FROM singer_log.source_table_list
+WHERE table_name = '<table_name>'

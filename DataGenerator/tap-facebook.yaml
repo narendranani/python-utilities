@@ -1,0 +1,24 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: tap-facebook
+spec:
+  schedule: "30 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: tap-facebook
+        spec:
+          containers:
+          - name: tap-facebook
+            image: demandjump/tap-facebook:{{ BUILD_NUMBER }}
+            env:
+            {{ VAULT_KEYS | indent(12) }}
+          restartPolicy: Never
+          imagePullSecrets:
+            - name: regsecret
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 2
+  failedJobsHistoryLimit: 2
