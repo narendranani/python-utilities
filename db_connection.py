@@ -5,8 +5,8 @@ import os
 CREDENTIALS = {
     'Trusted_Connection': 'no',
     'driver': '{SQL Server}',
-    'server': 'ggku2ser9',
-    'database': 'Ruffalo_EDW_Temp',
+    'server': 'Narendr?SQLExpress',
+    'database': 'Test',
     'user': 'sa',
     'password': 'Hyderabad007',
     'autocommit': False,
@@ -33,7 +33,7 @@ def fetch_data():
 
 def insert_data():
     try:
-        query = "INSERT INTO KPI_ODE_DDE_USAGE( type, [month], subscription, is_internal, num_user_logins, " \
+        query = "INSERT INTO Tes( type, [month], subscription, is_internal, num_user_logins, " \
                 "potential_users, num_page_requests, avg_report_return_time, num_emailed_reports) " \
                 "VALUES( 'ODE','1/1/2017 0:00','20th Century Fox','N',3,18,49,4.85926958,0) "
         cursor = cnx.cursor()
