@@ -3,10 +3,10 @@ import time
 
 QUERY = "SELECT *\nFROM sys.tables t\nJOIN sys.tables c\nON 1=1"
 CONFIG = {"Driver": "{SQL Server}",
-          "Server": "ggku2ser9",
+          "Server": "Narendra/SQLServer",
           "Trusted_Connection": "no",
           "uid": "sa",
-          "pwd": "Hyderabad007",
+          "pwd": "xxxxxxxxxx",
           "database": "master"
           }
 TOTAL_CONNECTIONS = 3000
