@@ -6,10 +6,10 @@ import time
 CREDENTIALS = {
     'Trusted_Connection': 'no',
     'driver': '{SQL Server}',
-    'server': 'CVIADCM01',
-    'database': 'ConsolidatedKPIs',
+    'server': 'Narendra/SQlServer',
+    'database': 'Test',
     'user': 'nkommoju',
-    'password': 'Hyderabad445',
+    'password': 'xxxxxxx',
     'autocommit': False,
 }
 
@@ -78,7 +78,7 @@ class CsvToMssql:
 
 
 if __name__ == '__main__':
-    ctm = CsvToMssql(os.path.abspath(r'E:\D_Drive\Projects\Comscore\Sheets\historical_domestic_usage.csv'))
+    ctm = CsvToMssql(os.path.abspath(r'E:\D_Drive\Projects\Sheets\historical_usage.csv'))
     number = 1
 
     file_start = time.time()
