@@ -40,9 +40,9 @@ mail.ehlo()
 
 mail.starttls()
 
-mail.login('narendra.kommoju@ggktech.com','xxxxxx')
+mail.login('narendra.kommoju964@gmail.com','xxxxxx')
 
-mail.sendmail('narendra.kommoju@ggktech.com','k.narendra234@gmail.com',content) 
+mail.sendmail('narendra.kommoju964@gmail.com','k.narendra234@gmail.com',content) 
 
 mail.close()
 print("Sent")	
