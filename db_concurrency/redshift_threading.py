@@ -7,10 +7,10 @@ import sys
 
 # QUERY = "SELECT *\nFROM information_schema.columns t, information_schema.columns c"
 QUERY = "SELECT *\nFROM information_schema.tables"
-CONFIG = {"host": "deleteme.cwl2lo84oinp.us-east-2.redshift.amazonaws.com",
+CONFIG = {"host": "deleteme.xxxxxxx.us-east-2.redshift.amazonaws.com",
           "port": "5439",
           "user": "sa",
-          "password": "Hyderabad007",
+          "password": "xxxxxxxxxxx",
           "dbname": "deletemedb"
           }
 MAX_CONNECTIONS = 500
