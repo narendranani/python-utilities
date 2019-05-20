@@ -7,9 +7,9 @@ import json
 BATCH = 1000
 
 
-<<<<<<< HEAD
-conn = "Driver={SQL Server};Server=ggku2ser9;Database=Ruffalo_EDW_Temp;Trusted_Connection=yes;"
-conn = "Driver={SQL Server};SERVER=CVIADCM01;DATABASE=ConsolidatedKPIs;UID=nkommoju;PWD=Hyderabad445"
+
+conn = "Driver={SQL Server};Server=Narendra/SQLServer;Database=Test;Trusted_Connection=yes;"
+conn = "Driver={SQL Server};SERVER=Narendra/SQLServer;DATABASE=Test;UID=F;PWD=xxxxxxxxxx"
 quoted = quote_plus(conn)
 new_con = 'mssql+pyodbc:///?odbc_connect={}'.format(quoted)
 print(new_con)
