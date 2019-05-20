@@ -1,6 +1,6 @@
 import psycopg2 as ps
 
-conn = ps.connect(dbname= 'analyticsdb', host='dj-analytics-dev-2017-10-04.cwje1pjja8pi.us-west-2.redshift.amazonaws.com', port= '5439', user= 'ggk_user', password= 'FsNSwbNw5DJq46Ut')
+conn = ps.connect(dbname= 'analyticsdb', host='nk-analytics-dev-xxxxxxxx-west-2.redshift.amazonaws.com', port= '5439', user= 'Test', password= 'xxxxxxxx')
 
 cur = conn.cursor()
 cur.execute('select top 100 * from adwords.geostats')
