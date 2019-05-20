@@ -5,10 +5,10 @@ import os
 CREDENTIALS = {
     'Trusted_Connection': 'no',
     'driver': '{SQL Server}',
-    'server': 'Narendr?SQLExpress',
+    'server': 'Narendr/SQLExpress',
     'database': 'Test',
     'user': 'sa',
-    'password': 'Hyderabad007',
+    'password': 'xxxxxxxxxx',
     'autocommit': False,
 }
 
