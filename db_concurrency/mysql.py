@@ -6,7 +6,7 @@ CONFIG = {"server": "{MySQL ODBC 3.51 Driver}",
           "host": "deleteme.c6z1ykk7r8lk.us-east-2.rds.amazonaws.com",
           "port": "3306",
           "user": "sa",
-          "password": "Hyderabad007",
+          "password": "xxxxxxxxxx",
           "dbname": "deletemedb"
           }
 TOTAL_CONNECTIONS = 1
